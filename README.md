@@ -19,25 +19,30 @@
  -  uygulamalarımızı yayına alabilmemizi,  
  -  angular uygulamlarını gerçek yayın ortamına (production) almak için angular ekibi tarafından geliştirilen  bir  pakettir.
 	 -   npm install -g @angular/cli
-		-    :pushpin:**`npm`** paket yüklemek için bu komutu kkullanırız.
+
+		-   :pushpin:**`npm`** paket yüklemek için bu komutu kkullanırız.
+
 		-   :pushpin: **`-g`** demek global.
 
- - npm paketleri  local veya global kurulur.  global demek tüm node 
+ - **npm** paketleri  local veya global kurulur.  global demek tüm node 
    sistemi angular clı'yı tanısın. tüm işletim sistemimde. bu yuzden
    global yaptım.
    
  - **northwind** : backend projemin ismi , bir eticaret satış sisteminde olabilecek temel verileri içeren ve bir etic sisteminde olabilecek operasyonları yazığımız bir projeydi.    
- - bu yuzden fronted projemi angular ile oluşturuklen; - 
-	  :pushpin: **`ng new northwind`** 
- ile basit bir şekilde angular bize  yapıyı sundu.
+ - bu yuzden fronted projemi angular ile oluşturuklen; 
+	
+	-:pushpin: **`ng new northwind`** 
+ 
+ile basit bir şekilde angular bize  yapıyı sunar.
 
  - angular ile proj geliştirriken temeli javascript'dir. Js de de tip güvenliği
     zaayıftır.  Tip güvenliği için yetenekleri zayıftır. Bu yuzden
     angular proj lerini typescript  (microsotu geliştirdiği ve arka tarafta
-    yine js e dönüşen bir üst seviye dil )  ile yazıyormuşuz.
- - angularda **rooting** denilen bir olay  nedir ?  sayfalar arası
+    yine js e dönüşen bir üst seviye dil )  ile yazıyoruz.
+
+ - angular 'da **rooting** denilen bir olay  nedir ?  sayfalar arası
     gezintiyi anlatır. Terminal kurulumunda buna yes diyoruz.
- - css defoult olarak gelir birşey seçilmezse.
+ - css default olarak gelir birşey seçilmezse.
  - bu aşamalardan sonra angular projem için ilgili klasörün içinde oluşmaya başlıyor. angular ile ilgili dosyalar içinde mevcut. 
 
 
