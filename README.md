@@ -1,22 +1,25 @@
-
-
 ##  EKOSİSTEM
 
-[Angular](https://angular.io/)
-[AngularCLI](https://cli.angular.io/)
-[TypeScript](https://www.typescriptlang.org/)
-[NODEJS](https://nodejs.org/en/)
-[Bootstrap](https://getbootstrap.com/docs/)
+  
+:honey_pot:[Angular](https://angular.io/)
+   
+:honey_pot:[AngularCLI](https://cli.angular.io/)
+  
+:honey_pot:[TypeScript](https://www.typescriptlang.org/)
+  
+:honey_pot:[NODEJS](https://nodejs.org/en/)
+  
+:honey_pot:[Bootstrap](https://getbootstrap.com/docs/)
 
 ----
 
-**Angular.io**   
+### **Angular.io**   
  :pushpin: https://angular.io/cli  ;
 
  -  angulardaki bileşenleri hızlıca sistemimize entegre etmek için , 
- - uygulamalarımızı yayına aldığımız,  
- - 	angular uygulamlarını gerçek yayın ortamına (production) almak için angular ekibi tarafından geliştirilen  bir  pakettir.
- -  npm install -g @angular/cli
+	 - uygulamalarımızı yayına aldığımız,  
+	 - 	angular uygulamlarını gerçek yayın ortamına (production) almak için angular ekibi tarafından geliştirilen  bir  pakettir.
+	 -  npm install -g @angular/cli
 		-    :pushpin:**`npm`** paket yüklemek için bu komutu kkullanırız.
 		-   :pushpin: **`-g`** demek global.
 
@@ -25,7 +28,7 @@
    global yaptım.
    
  - **northwind** : backend projemin ismi , bir eticaret satış sisteminde olabilecek temel verileri içeren ve bir etic sisteminde olabilecek operasyonları yazığımız bir projeydi.    
- - bu yuzden frontend projemi angular ile oluşturuklen; - 
+ - bu yuzden fronted projemi angular ile oluşturuklen; - 
 	  :pushpin: **`ng new northwind`** 
  ile basit bir şekilde angular bize  yapıyı sundu.
 
@@ -64,36 +67,40 @@ Ancak angular gibi react gibi uygulamalar **SPA**(single page app) tek sayfalık
 - kurumsal firmalalr teknoloji seçimine karar verirken bu teknolojinin arkasında kim var diye bakarlar. kurumsalda angular ve react türkiyede yaygındır.
 - **Angularda** herşey tek sayfadan oluşur.  
 
-### ***Projede Dosya Yapısı :***
-**node_modules ::** angular projemde kullandığım  node paketlerini içeren klasör.
+## :honey_pot:***Projede Dosya Yapısı :***
 
- - ör: jquery kullanacaksak veya bootstrap için onun tüm kodlarının burada olması gerekir. burda durur. bu paketler çok fazladır. 
+  
+- :heavy_check_mark: **node_modules ::** angular projemde kullandığım  node paketlerini içeren klasör.
+
+	 - ör: jquery kullanacaksak veya bootstrap için onun tüm kodlarının burada olması gerekir. burda durur. bu paketler çok fazladır. 
 eğer projemi indirmek isterseniz :
-Gereklilikler için ; 
+**Gereklilikler için ;** 
 	- :pushpin:   npm install 
 
 
-**package.json :** burada iki temel node görürüsünüz.. dependency ve devDependency.
+  
+- :heavy_check_mark: **package.json :** burada iki temel node görürüsünüz.. dependency ve devDependency.
 bu iki ayrım bizim geliştirme yaparken kullandığımız paketlersdir. biz bunu yayına aldığımızda , sumeyyekilic.github.o gibi kullanıcı etkieleşim geçtiğinde orada lazım olan paketler dependency de bulunur. yani proje bağımlılıkları. ör: bootstrap sayfayı css anlamında güzelleştirir kullanıcı güzel bir sayfa görüyormu? Bunu dependency'ye ekleriz. 
 devDep  ise bana lazım olan şeylerdir.. (geliştiriciye lazım olan paketler buraya ayrılır). neden ayrılır ? yarın biz bunu prod a yayına aldığımızda devdependency yüklenmesin sadece dependency yüklensin ve uyg boyutu küçük olsu diye kullanılan tekniktir.
 
 - npm install işte package.json 'a bakar ve bunları sizin bilgisayaraınıza kurar.
 
-**src**  projemin kaynak kodlarını içeren klasör.
-**src-app :** uygulama kodlarım burada.
-**src-  index.html :** bizim angular uygulamamız SPA'dı. tek sayfa uygulamamız var ve oda buydu. geliştirme yaprken buraya heemen hemen hiç dokunmicaz.
+-   :heavy_check_mark:**src**  projemin kaynak kodlarını içeren klasör.
+- :heavy_check_mark: **src-app :** uygulama kodlarım burada.-
+- :heavy_check_mark:**src-  index.html :** bizim angular uygulamamız SPA'dı. tek sayfa uygulamamız var ve oda buydu. geliştirme yaprken buraya heemen hemen hiç dokunmicaz.
 
 
-<app-root>  html de olan bişey değil. coponentler  knusu burada başlıyor. yani angularda böyle componentler geliştiricez.
+  
+- :heavy_check_mark:`"<app-root>"`  html de olan bişey değil. coponentler  knusu burada başlıyor. yani angularda böyle componentler geliştiricez.
 
 
 
-**src-    app-**  içine    **component** klasörü oluşturdumm.
+-   :heavy_check_mark:**src-    app-**  içine    **component** klasörü oluşturdumm.
 
-- **component** klasörü içine uygulamalmamın componentlerini koyucam.
+-  :heavy_check_mark: **component** klasörü içine uygulamalmamın componentlerini koyucam.
 
-- **`.spec`** uzantılı dosya unit testtir.
-- **`.ts`** uzantılı bizim componenttir.
+-   :heavy_check_mark: **`.spec`** uzantılı dosya unit testtir.
+-  :heavy_check_mark:  **`.ts`** uzantılı bizim componenttir.
 angular da nesne yönelimli programlama kendini belli ederr. mesela çeşitli patternler, injection gibi kendini belli eder. 
 
 ### app.component.html ve  app.component.ts  kardeşler
@@ -104,10 +111,9 @@ angular da nesne yönelimli programlama kendini belli ederr. mesela çeşitli pa
 	
 	- app.component.html içerisinde oluşturulan herşey silindi. ve trayıcda bomboş bir sayfa ile karşılşırız.
 
-Angular; dom manüpilasyonu denen olayı yapar.  html dümdüz sayfada görünen şeyler ile ilgilenir.
+Angular; dom manipülasyondenen olayı yapar.  html dümdüz sayfada görünen şeyler ile ilgilenir.
 
-
-backendi yazmamın sbebi datayı yönetmek.
+- backendi yazmamın sebebi datayı yönetmek.
 Angular ile ben bir apye bağlanıp ordaki datatları getirebilyorum  gösterebiliyorum ve dtaları alab,l,yorum.
 
 - Angularda herşey class'dır.
@@ -145,16 +151,19 @@ Angular ile ben bir apye bağlanıp ordaki datatları getirebilyorum  gösterebi
 
 
 1. compoenet nasıl oluşturdum : 
-	1.1 component  -- Open i Integratedterminal --   
-	product componenti :
+	**1.1 component**  kalsörü -->  Open i Integratedterminal --   
+	**product componenti :**
 	- :pushpin:  **`ng g component product`**
 	
 	g:generate (oluştur),, yukardaki komut ile ilgili bir komponentte olan tüm klasörleri ekler.
-	1.2.component
+	
+
+    enter code here
+	**1.2.component**
 	- :pushpin:  **`ng g component category`**
 
 
-	1.3.component
+	**1.3.component**
 	- :pushpin:   **`ng g component navi`**     -----> menu kısmı
 
 - **app.module.ts**   :  :pushpin:   **module**  birbiri ile ilişkili componentleri directive leri  bieleşenleri topladığımız yer. biir uyg da iki tane module olabilir. etic uygulamasında etic kısmı ve  admin paneli  olarak. 
@@ -166,15 +175,14 @@ Angular'da keşfettiğim kadarrıyla aşırı hiyerarşik bir yapıya sahip    :
 - benim eklediğim komponentleri angular gidip app.module.ts 'e eklemiş   :heartpulse: yani benim birazdan bu komponentleri kullanabilmemi sağlayacak yapı aslında burası. 
 bir moduluın bir comp kullanabilmesi için  modulun declaration'da o moduluın veya componentin eklii olması gerekir. tıpkı benim projemde yaptığı gibi :
 
-  
+@NgModule({    
+declarations: [
+    AppComponent,
+    ProductComponent,
+    CategoryComponent,
+    NaviComponent
+    ],
 
-    @NgModule({    
-    declarations: [
-        AppComponent,
-        ProductComponent,
-        CategoryComponent,
-        NaviComponent
-        ],
 - :fist:artık börek yapabilmem lazım işin mutfağında 
 
 - ağaç dizilimi root componenti ile başlar.
@@ -193,6 +201,7 @@ app-category, app-product gibi.** bunların 3'ü app'in altında demek, aynı hi
  -   :zap: extensions tavsiyesi
     	- bracket pair colorizer
     	- Prettier - Code formatter
+
 
 
 # Northwind
