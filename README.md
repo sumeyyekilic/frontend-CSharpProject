@@ -18,17 +18,18 @@
  - angulardaki bileşenleri hızlıca sistemimize entegre edebilmemizi, 
  -  uygulamalarımızı yayına alabilmemizi,  
  -  angular uygulamlarını gerçek yayın ortamına (production) almak için angular ekibi tarafından geliştirilen  bir  pakettir.
-	 -   npm install -g @angular/cli
+ -   npm install -g @angular/cli 
 
-		-   :pushpin:**`npm`** paket yüklemek için bu komutu kkullanırız.
-
-		-   :pushpin: **`-g`** demek global.
+		-  :pushpin:**`npm`** paket yüklemek için bu komutu kkullanırız.
+	
+		- :pushpin: **`-g`** demek global.
 
  - **npm** paketleri  local veya global kurulur.  global demek tüm node 
    sistemi angular clı'yı tanısın. tüm işletim sistemimde. bu yuzden
    global yaptım.
    
- - **northwind** : backend projemin ismi , bir eticaret satış sisteminde olabilecek temel verileri içeren ve bir etic sisteminde olabilecek operasyonları yazığımız bir projeydi.    
+ - **northwind** : 
+[Backend ](https://github.com/sumeyyekilic/frontend-CSharpProject) projemin ismi , bir eticaret satış sisteminde olabilecek temel verileri içeren ve bir etic sisteminde olabilecek operasyonları yazığımız bir projeydi.    
  - bu yuzden fronted projemi angular ile oluşturuklen; 
 	
 	-:pushpin: **`ng new northwind`** 
