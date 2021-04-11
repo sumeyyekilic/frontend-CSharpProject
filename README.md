@@ -12,14 +12,13 @@
 :honey_pot:[Bootstrap](https://getbootstrap.com/docs/)
 
 ----
-
 ### **Angular.io**   
  :pushpin: https://angular.io/cli  ;
-
-	 - angulardaki bileşenleri hızlıca sistemimize entegre edebilmemizi, 
-	 - uygulamalarımızı yayına alabilmemizi,  
-	 -  angular uygulamlarını gerçek yayın ortamına (production) almak için angular ekibi tarafından geliştirilen  bir  pakettir.
-	 -  npm install -g @angular/cli
+ 
+ - angulardaki bileşenleri hızlıca sistemimize entegre edebilmemizi, 
+ -  uygulamalarımızı yayına alabilmemizi,  
+ -  angular uygulamlarını gerçek yayın ortamına (production) almak için angular ekibi tarafından geliştirilen  bir  pakettir.
+	 -   npm install -g @angular/cli
 		-    :pushpin:**`npm`** paket yüklemek için bu komutu kkullanırız.
 		-   :pushpin: **`-g`** demek global.
 
