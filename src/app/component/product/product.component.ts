@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from 'src/app/modals/product';
 
 @Component({
   selector: 'app-product',
@@ -7,19 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductComponent implements OnInit {
 
-  product1:any={productId:1, productName:'defter',categoryId:1, unitPrice:5}
-  product2:any={productId:2, productName:'kalem',categoryId:1, unitPrice:5}
-  product3:any={productId:3, productName:'silgi',categoryId:1, unitPrice:5}
-  product4:any={productId:4, productName:'fırça',categoryId:1, unitPrice:5}
-  product5:any={productId:5, productName:'boya',categoryId:1, unitPrice:5}
 
-  products =[
-    this.product1,
-    this.product2,
-    this.product3,
-    this.product4,
-    this.product5,
-  ] //elimde 5 elemandan oluşan ürünler
+  products :Product[] =[
+
+  ] //elimde 5 elemandan oluşan ürünler arrayi. arrayin veri tipi belli değil ?
   constructor() { }
 
   ngOnInit(): void {
